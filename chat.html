@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">09:53</span>
@@ -44,28 +44,46 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
           <img
-            src="https://i.pinimg.com/564x/98/51/32/98513201069a6214335e6a42171d02f0.jpg"
+            src="images/avatar.jpg"
             alt="Gauntlets"
-            class="g-avatar message__avatar"
+            class="m-avatar message__avatar"
           />
           <div class="message__content">
+            <span class="message__bubble">
+              Hello I'm Choco
+            </span>
             <span class="message__author">Best Friend</span>
-            <span class="message__buble">
-              This is my Gauntlet!
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Hi Choco
             </span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
         <li class="incoming-message message">
-          <span class="message__timestamp"></span>
+          <img
+            src="images/avatar.jpg"
+            alt="Gauntlets"
+            class="m-avatar message__avatar"
+          />
           <div class="message__content">
-            <span class="message__buble">
-              No it is mine!
+            <span class="message__bubble">
+              Hello I'm Choco
+            </span>
+            <span class="message__author">Best Friend</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Hi Choco
             </span>
           </div>
         </li>
