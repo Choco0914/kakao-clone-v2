@@ -2,4 +2,4 @@
 
 ## check out site!
 
-[chekc out][https://choco0914.github.io/kakao-clone-v2/]
+[chekc out](https://choco0914.github.io/kakao-clone-v2/)
